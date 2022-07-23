@@ -250,7 +250,7 @@ inline std::string convert_char_to_bf(char character, bool comments = false) {
 
 
 
-inline std::string convert_string_to_bf(std::string string, bool comments = false, std::string file_name = "" /* empty == just printing on the terminal*/) {
+inline std::string convert_string_to_bf(std::string string, std::string file_name = "" /* empty == just printing on the terminal*/, bool comments = false) {
     int lenght = string.length();
     std::string output;
     std::string move_on = "";
